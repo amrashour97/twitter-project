@@ -1,0 +1,194 @@
+.middle-section {
+    width: 600px;
+    border-right-style: solid;
+    border-width: 0.1px;
+    border-color: lightgray;
+    margin-left: 385px;
+}
+
+.header {
+    position: fixed;
+    left: 385px;
+    width: 600px;
+    top: 0;
+    border-bottom-style: solid;
+    border-width: 0.1px;
+    border-color: lightgray;
+    background-color: white;
+    opacity: 0.8;
+}
+
+.page {
+    margin-left: 15px;
+    font-family: roboto, Arial;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home-type {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+    font-family: roboto, Arial;
+    font-size: 15px;
+    font-weight: 700;
+    text-align: center;
+}
+
+.type1,
+.type2 {
+    cursor: pointer;
+}
+
+.type1:hover,
+.type2:hover {
+    background-color: lightgray ;
+}
+
+.tweet-container {
+    margin-top: 110px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+}
+.tweet-section {
+    display: grid;
+    grid-template-columns: 70px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.picture {
+    width: 50px;
+    border-radius: 30px;
+}
+
+.tweet-bar {
+    width: 500px;
+    height: 70px;
+    font-family: roboto, Arial;
+    font-size: 20px;
+    font-weight: 300;
+    border-style: none  ;
+}
+
+.tweet-icon {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    border-bottom-style: solid;
+    border-width: 0.1px;
+    border-color: lightgray;
+}
+
+.left-icons {
+    margin-top: -10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 180px;
+    margin-left: 50px;
+    flex-shrink: 0;
+}
+
+.icon-tweet {
+    width: 20px;
+    cursor: pointer;
+}
+
+.icon-tweet:hover {
+    background-color: lightskyblue;
+    opacity: 0.7;
+}
+
+.button2 {
+    margin-left: 190px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    width: 90px;
+    height: 40px;
+    background-color: rgb(29, 155, 240);
+    border-radius: 25px;
+    border-style: none;
+    font-family: roboto, Arial;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    cursor: pointer;
+}
+
+.button2:hover {
+    background-color: rgb(9, 131, 212);
+}
+
+.the-tweet {
+    display: grid;
+    align-items: center;
+    border-bottom-style: solid;
+    border-bottom-width: 0.1px;
+    border-bottom-color: lightgray;
+    margin-top: 20px;
+}
+
+.twitter-info {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.info {
+    display: flex;
+    align-items: center;
+    height: 30px;
+}
+
+.name {
+    font-family: roboto, Arial;
+    font-size: 16px;
+    font-weight: 500;
+    margin-right: 10px;
+    margin-top: 0;
+}
+
+.the-tag {
+    font-family: roboto, Arial;
+    font-size: 15px;
+    font-weight: 300;
+    color: rgb(96,96,96);
+    margin-top: 0;
+}
+
+.tweet-text {
+    white-space: nowrap;
+    margin-top: 0;
+    margin-left: 50px;
+    margin-top: 0;
+}
+
+.tweet-picture {
+    margin-left: 50px;
+    width: 500px;
+}
+
+.content {
+    width: 500px;
+    border-radius: 10px;
+}
+
+.tweet-reaction {
+    display: flex;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    padding-bottom: 15px;
+}
+
+.reaction {
+    width: 15px;
+    margin-right: 15px;
+}
+
+.number {
+    margin-right: 50px;
+    color:  rgb(96,96,96);
+}
